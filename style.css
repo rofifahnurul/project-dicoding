@@ -1,0 +1,112 @@
+body {
+    background-size: 1400px 555px;
+    font-family: sans-serif;
+    color: #1e1919;
+    ;
+}
+
+* {
+    margin: 0px;
+}
+
+ul {
+    float: top;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1e1919;
+    position: fixed;
+    height: 52px;
+}
+
+li {
+    float: left;
+    height: 55px;
+    font-size: 70%;
+}
+
+li a {
+    margin-top: 0px;
+    display: block;
+    padding: 15px;
+    color: #EABCAC;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#article1 {
+    padding: 5%;
+    height: 500px;
+    background-image: url("assets/bgfix.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+#article1 p {
+    padding-top: 250px;
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+hr {
+    width: 100%;
+    color: #eee8e8;
+}
+
+#article2,
+#article3 {
+    margin: 100px;
+}
+
+#article2 .container {
+    display: flex;
+    width: 100%;
+}
+
+#article2 .flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#article2 .box {
+    flex-grow: 1;
+    margin: 5px;
+    line-height: 40px;
+}
+
+#article2 .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#box1 {
+    padding-top: 100px;
+    width: 60%;
+}
+
+#article2 aside {
+    width: 50%;
+}
+
+#icon1 {
+    width: 90%;
+    height: 90%;
+}
+
+#gambar {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    border: 3px solid rgb(214, 198, 182);
+}
