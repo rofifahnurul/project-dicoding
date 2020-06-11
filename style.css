@@ -2,7 +2,6 @@ body {
     background-size: 1400px 555px;
     font-family: sans-serif;
     color: #1e1919;
-    ;
 }
 
 * {
@@ -56,38 +55,48 @@ hr {
 
 #article2,
 #article3 {
-    margin: 100px;
+    margin: 50px 100px 50px 100px;
 }
 
-#article2 .container {
+#article4 {
+    margin: 50px 270px 50px 270px;
+}
+
+.container {
     display: flex;
     width: 100%;
 }
 
-#article2 .flex-column {
+.flex-column {
     display: flex;
     flex-direction: column;
 }
 
-#article2 .box {
+.box {
     flex-grow: 1;
     margin: 5px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
-#article2 .flex-row {
+.flex-row {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
 }
 
 h1 {
-    font-size: 40px;
-    padding-bottom: 50px;
+    font-size: 35px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #box1 {
@@ -95,13 +104,45 @@ p {
     width: 60%;
 }
 
-#article2 aside {
+#box2 {
+    padding-top: 50px;
+    width: 60%;
+    text-align: right;
+}
+
+#box3 {
+    width: 50%;
+}
+
+#box4 {
+    width: 50%;
+}
+
+aside {
     width: 50%;
 }
 
 #icon1 {
+    float: right;
     width: 90%;
     height: 90%;
+}
+
+#icon2 {
+    float: left;
+    margin-top: 20px;
+    width: 90%;
+    height: 90%;
+}
+
+#foto1 {
+    width: 400px;
+    height: 400px;
+}
+
+#foto2 {
+    width: 400px;
+    height: 400px;
 }
 
 #gambar {
