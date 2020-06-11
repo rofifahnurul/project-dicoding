@@ -42,7 +42,7 @@ li a {
 
 #article1 p {
     padding-top: 250px;
-    font-size: 50px;
+    font-size: 300%;
     font-weight: bold;
     color: whitesmoke;
 }
@@ -54,15 +54,15 @@ hr {
 
 #article2,
 #article3 {
-    margin: 50px 100px 50px 100px;
+    margin: 3% 6% 3% 6%;
 }
 
 #article4 {
-    margin: 50px 260px 50px 260px;
+    margin: 3% 10% 3% 10%;
 }
 
 aside {
-    margin: 50px 100px 50px 100px;
+    margin: 3% 6% 3% 6%;
 }
 
 .container {
@@ -78,7 +78,7 @@ aside {
 .box {
     flex-grow: 1;
     margin: 5px;
-    line-height: 35px;
+    line-height: 200%;
 }
 
 .flex-row {
@@ -88,14 +88,14 @@ aside {
 }
 
 h1 {
-    font-size: 35px;
-    padding-bottom: 40px;
+    font-size: 220%;
+    padding-bottom: 7%;
 }
 
 h3 {
     text-align: center;
-    font-size: 30px;
-    padding-bottom: 20px;
+    font-size: 180%;
+    padding-bottom: 3%;
 }
 
 p {
@@ -103,7 +103,7 @@ p {
 }
 
 #box1 {
-    padding-top: 100px;
+    padding-top: 8%;
     width: 60%;
 }
 
@@ -126,38 +126,39 @@ p {
 }
 
 #box6 {
-    float: right;
     width: 50%;
 }
 
 aside.box {
-    width: 50%;
+    width: 40%;
 }
 
 #icon1 {
     float: right;
+    margin-top: 5%;
     width: 90%;
     height: 90%;
 }
 
 #icon2 {
     float: left;
-    margin-top: 20px;
+    margin-top: 5%;
     width: 90%;
     height: 90%;
 }
 
 #foto1 {
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 90%;
 }
 
 #foto2 {
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 90%;
 }
 
 #gambar {
+    margin-right: 8%;
     float: right;
     width: 50%;
     height: 50%;
@@ -166,9 +167,55 @@ aside.box {
 }
 
 @media screen and (max-width: 1000px) {
-    #content,
-    aside {
-        width: 100%;
-        padding: 0;
+    #article1 {
+        padding: 2%;
+        height: 300px;
+        background-size: 100% 100%;
+        margin-bottom: 20px;
+    }
+    #article1 p {
+        padding-top: 20%;
+        font-size: 180%;
+    }
+    #article2,
+    #article3 {
+        margin: 0.1% 2% 0.1% 2%;
+    }
+    p {
+        font-size: 10px;
+    }
+    #box1 {
+        width: 10%;
+    }
+    #box2 {
+        padding-top: 50px;
+        width: 5%;
+        text-align: right;
+    }
+    aside.box {
+        width: 10%;
+    }
+    #icon1 {
+        margin-top: 50%;
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+    #icon2 {
+        margin-top: 30%;
+        float: left;
+        width: 50%;
+        height: 50%;
+    }
+    h1 {
+        font-size: 100%;
+    }
+    h4 {
+        font-size: 70%;
+    }
+    h3 {
+        text-align: center;
+        font-size: 100%;
+        padding-bottom: 1%;
     }
 }
