@@ -1,5 +1,4 @@
 body {
-    background-size: 1400px 555px;
     font-family: sans-serif;
     color: #1e1919;
 }
@@ -59,7 +58,11 @@ hr {
 }
 
 #article4 {
-    margin: 50px 270px 50px 270px;
+    margin: 50px 260px 50px 260px;
+}
+
+aside {
+    margin: 50px 100px 50px 100px;
 }
 
 .container {
@@ -118,7 +121,16 @@ p {
     width: 50%;
 }
 
-aside {
+#box5 {
+    width: 60%;
+}
+
+#box6 {
+    float: right;
+    width: 50%;
+}
+
+aside.box {
     width: 50%;
 }
 
@@ -146,8 +158,17 @@ aside {
 }
 
 #gambar {
-    width: 80%;
-    height: 80%;
+    float: right;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     border: 3px solid rgb(214, 198, 182);
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
 }
